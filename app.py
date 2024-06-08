@@ -1,7 +1,5 @@
-from flask import Flask, render_template, request, redirect, url_for, make_response, jsonify
+import flask
 import requests
-import os
-import subprocess
 
 app = Flask(__name__)
 
